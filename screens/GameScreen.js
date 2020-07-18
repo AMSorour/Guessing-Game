@@ -16,6 +16,7 @@ import MainButton from "../components/MainButton";
 import { Ionicons } from "@expo/vector-icons";
 import BodyText from "../components/BodyText";
 import Colors from "../constants/colors";
+import * as ScreenOrientation from "expo-screen-orientation";
 
 const generateRandomBetween = (min, max, exclude) => {
   min = Math.ceil(min);
